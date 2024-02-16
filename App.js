@@ -2,6 +2,7 @@
 import Duolingo from "./components/Duolingo";
 import Location from "./components/Location";
 import Onboarding1 from "./components/Onboarding1";
+import Onboarding2 from "./components/Onboarding2";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
@@ -14,6 +15,7 @@ const App = () => {
       <Stack.Screen name='Duolingo' component={Duolingo} options={{headerShown: false}}/> 
       <Stack.Screen name="Location" component={Location} options={{headerShown: false}}/>
       <Stack.Screen name="Onboarding1" component={Onboarding1} options={{headerShown: false}}/>
+      <Stack.Screen name="Onboarding2" component={Onboarding2} options={{headerShown: false}}/> 
 
 
     </Stack.Navigator>

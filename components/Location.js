@@ -1,6 +1,6 @@
 import { Text, Image, View, Button, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import Onboarding1 from "./Onboarding1";
+import {Onboarding1} from "./Onboarding1";
 
 const Location = () => {
 
@@ -18,7 +18,7 @@ const Location = () => {
 
             {/* Button for Grant Permission */}
             <TouchableOpacity style={{ borderRadius: 16, backgroundColor: '#EC1C23', padding: 24, width: 312, marginTop: '10%' }}
-            onPress={()=>Navigation.navigate(Onboarding1)}>
+            onPress={()=>Navigation.navigate('Onboarding1')}>
 
                 <Text style={{ fontSize: 17, fontWeight: '600', color: 'white', textAlign: "center", }}>Grant Permission</Text>
             </TouchableOpacity >
